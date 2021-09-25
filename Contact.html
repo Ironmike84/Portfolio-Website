@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="Images\Asset 5.png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS\normalize.css">
+<link rel="stylesheet" href="CSS\style.production.css">
+</head>
+
+
+<body>
+
+
+    <div class="container">
+    <header>
+    <nav>
+        <img class="logo" src="Images\Asset 4.svg" alt="My Logo" aria-hidden="true">
+        <H1 class="name">MICHAEL GROSS</H1>
+
+        <ul role="menubar" class="links">
+            <li role="presentation" >
+                <a role="menuitem" href="Index.html">Home</a>
+            </li>
+            <li role="presentation">
+                <a  role="menuitem" href="About.html">About</a>
+            </li>
+            <li role="presentation"> 
+                <a  role="menuitem" href="Work.html">Work</a>
+            </li>
+            <li role="presentation">Contact</li>
+        </ul>
+    </nav>
+    </header>
+        <div class="inner-container">
+     
+        <div class="profile-image">
+          <img aria-hidden="true" class="profile-img"src="Images\MichaelJG.jpg" alt="Picture of Michael">
+        </div>
+        <div class="profile-desc">
+            <h1>Contact Me:</h1>
+            <p>By Phone: </p>
+            <a role="menuitem" href="tel:+15417998372">1 (541)-799-8372</a></p>
+            <p>By E-Mail: </p>
+            <p><a href="mailto:michaelgross.tn@gmail.com">Click Here to E-Mail Me!!</a></p>
+     
+        </div>
+        <div class="contact-form">
+            <form aria-hidden="true" action="mailto:michaelgross.tn@gmail.com" method="POST">
+            
+            <label for="firstName" id="firstName" name="firstName">First Name:</label>
+            <input id="firstName" name:="firstName" type="text" placeholder="First Name" required>
+            <br>
+            
+            <label for="lastName" id="lastName" name="lastName">Last Name:</label>
+            <input id="lastName" name:="lastName" type="text" placeholder="Last Name" required>
+            
+            <br>
+            
+            <label for="email" id="email" name="email">E-Mail:</label>
+            <input name:="email" type="email" placeholder="E-Mail" required></label>
+            <br>
+
+            <label for="comments" id="email" name="email">Comments:</label>
+            <textarea name="comments" id="" cols="30" rows="10" required></textarea></label>
+
+            <button>Send!</button>
+        </form>
+        </div>
+    </div>
+        <footer>
+        <h2>Find me on:</h2>
+        <a href="https://github.com/"><img src="Images\github.png" alt="GitHub"></a>
+        <a href="https://twitter.com/"><img src="Images\Twitter.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/in/michael-gross/"><img src="Images\Twitter.png" alt="LinkedIn"></a>
+    </footer>
+
+
+    </div>
+
+    <script src="js/tota11y.min.js"></script>
+
+</body>
+</html>
